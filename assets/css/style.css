@@ -7,7 +7,8 @@
 body {
   /* this is a css comment */
   color: #39a6b2;
-  font-family: Helvetica, Arial: sans-serif: ;
+  font-family: Helvetica, Arial;
+  sans-serif: ;
 }
 
 .text-left {
@@ -234,4 +235,31 @@ section h3 {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+
+/*contact section*/
+
+.contact {
+  background: #024e76;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.contact h2 {
+  color: #fce138;
+}
+/*By giving the contact section the section-title class I don't need to recode this section.
+I do need to change the color of the font though, because the class is set to the dark blue.*/
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
+
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
 }
